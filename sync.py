@@ -31,7 +31,7 @@ for obj in repertories:
     type = obj["type"]
     username = obj["username"]
     repertory = obj["repertory"]
-    handle = None
+    handle = Non
     if 1 == type:
         handle = GitClone(username + "/" + repertory);
     else:
@@ -45,6 +45,13 @@ for handle in handles:
 os.chdir(dst + "/helm")
 make = subprocess.Popen("make", shell = True, stdout = None, stderr = None)
 make.wait()
+
+###################################################################################################
+os.chdir(user_home);
+gitconfig_handle = GitClone("detective7th/gitconfig");
+gitconfig_handle.wait();
+
+subprocess.Popen("cp ./gitconfig/.gitconfig ./ && cp ./gitconfig/.gitignore ./");
 
 #######################################################################################################################################
 down_load_dir = "/tmp/sync/"

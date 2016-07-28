@@ -1,0 +1,44 @@
+{
+    "repertories" : [
+	{
+	    "type" : 1,
+	    "username" : "auto-complete",
+	    "repertory" : "auto-complete.git"
+	},
+	{
+	    "type" : 1,
+	    "username" : "mooz",
+	    "repertory" : "auto-complete-c-headers.git"
+	},
+	{
+	    "type" : 1,
+	    "username" : "jwiegley",
+	    "repertory" : "emacs-async.git"
+	},
+	{
+	    "type" : 1,
+	    "username" : "syohex",
+	    "repertory" : "emacs-helm-gtags.git"
+	},
+	{
+	    "type" : 2,
+	    "username" : "lyro",
+	    "repertory" : "evil"
+	},
+	{
+	    "type" : 1,
+	    "username" : "flycheck",
+	    "repertory" : "flycheck.git"
+	},
+	{
+	    "type" : 1,
+	    "username" : "emacs-helm",
+	    "repertory" : "helm.git"
+	},
+	{
+	    "type" : 1,
+	    "username" : "Fuco1",
+	    "repertory" : "smartparens.git"
+	}
+    ]
+}
